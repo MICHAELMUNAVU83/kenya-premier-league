@@ -5,6 +5,7 @@ import "./each-team.css";
 
 function EachTeam({ signedInUser }) {
   const params = useParams();
+  // eslint-disable-next-line
   const [teamId, setTeamId] = useState(Number(params.id));
   const [teams, setTeams] = useState([]);
   const [matches_played, setMatches_played] = useState(0);

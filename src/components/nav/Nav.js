@@ -7,12 +7,13 @@ import { useNavigate } from "react-router-dom";
 
 function Nav({ signedInUser }) {
   const [mobile, setMobile] = useState(false);
+  // eslint-disable-next-line 
   const navigate = useNavigate();
   
   return (
     <nav className="nav__bar">
       <Link to="/" className="nav__logo text-decoration-none text-light">
-        <h3 className="nav__logo">⚽ Kenyan Premeir League ⚽</h3>
+        <h3 className="nav__logo"> Kenyan Premeir League </h3>
       </Link>
 
       <ul

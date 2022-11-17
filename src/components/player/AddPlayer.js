@@ -4,6 +4,7 @@ function AddPlayer({ teamId }) {
   const [name, setName] = useState("");
   const [image, setImage] = useState("");
   const [position, setPosition] = useState("");
+  // eslint-disable-next-line 
   const [player, setPlayer] = useState([]);
 
   const uploadImage = (files) => {
