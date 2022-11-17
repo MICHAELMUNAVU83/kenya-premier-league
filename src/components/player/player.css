@@ -1,0 +1,20 @@
+.player-stats-table {
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 1px 1px 2px;
+  border-collapse: collapse;
+}
+.player-stats-table tr th {
+  padding: 0 20px;
+  justify-content: flex-start;
+}
+
+.player-stats-table tr:nth-child(1) {
+  background-color: #8f6cc6;
+}
+
+.player-stats-table,
+td,
+th {
+  border: 1px solid;
+}
